@@ -54,11 +54,24 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
+        Written by <strong>{author}</strong> who lives in Arras and building useful things.
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+        You should follow me on
+        {` `}
+        <a href={`https://twitter.com/${social.twitter}`} target="_blank">
+          Twitter
+        </a>
+        {` `}
+        , or contact me for a job on my 
+        {` `}
+        <a href={`https://linkedin.com/in/aurelienhennuyer`} target="_blank">
+          Linkedin
+        </a>
+        {` `}
+        and see some of works in my
+        {` `}
+        <a href={`https://aurelien-hennuyer.netlify.com`} target="_blank">
+          portfolio
         </a>
       </p>
     </div>
