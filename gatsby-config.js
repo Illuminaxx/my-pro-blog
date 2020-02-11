@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `My Personal Blog`,
+    title: `My Professinal Blog`,
     author: `Hennuyer Aurélien`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `http://localhost:8000`,
